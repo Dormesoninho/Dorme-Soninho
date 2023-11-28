@@ -1,0 +1,150 @@
+#texto1{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    /*background-color: rgba(51, 25, 0, 0.411);*/
+}
+
+#texto2{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+#inicio {
+    width: 1903px;
+    height:800px;   
+}
+
+.container img {
+    max-width:170px;
+    max-height:150;
+    width: auto;
+    height: auto;
+    padding: 5px;
+
+    display:inline-block;
+    border:2px solid #8c78ca52;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.container{
+    max-width: 1700px; /*muda o tamanho do gride por dentro*/
+    position: absolute;
+    top: 94%; /*muda a distancia das fotos em Y*/
+    transform: translateX(190px); /*muda a distancia das fotos em X (esquerda para direita)*/
+}
+
+body{
+    background-color: #f0f8ff;
+    
+}
+
+* { 
+    margin: 0 auto; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif; 
+} 
+
+#Tflutuante{
+    font-size: 60px;
+    color: rgb(58, 64, 71);
+    
+    position: absolute;
+    top: 42%; /*muda a distancia das fotos em Y*/
+    transform: translateX(100px); /*muda a distancia das fotos em X (esquerda para direita)*/
+    font-family: Huglove;
+}
+
+#imgMenu{
+    width:700px;
+    height:700px;
+    color: rgb(58, 64, 71);
+    
+    position: absolute;
+    top: 20%; /*muda a distancia das fotos em Y*/
+    transform: translateX(900px); /*muda a distancia das fotos em X (esquerda para direita)*/
+    font-family: Huglove;
+}
+
+@font-face {
+    font-family: Huglove;
+    src: local(Huglove), url(Glossy\ Sheen\ Shine\ DEMO.ttf)
+}
+
+#menu-h{ 
+    background-color:#59429d;
+} 
+
+#menu-h ul { 
+    list-style: none; 
+    padding: 0; 
+} 
+
+#menu-h ul li { 
+    display: inline; 
+} 
+
+#menu-h ul li a { 
+    color: #f0f8ff; 
+    padding: 20px; 
+    display: inline-block; 
+    text-decoration: none; 
+    transition: background .4s; 
+} 
+  
+#menu-h ul li a:hover { 
+    background-color: rgb(34, 34, 34); 
+} 
+
+#menu-h ul li:last-child a { 
+    float: right; 
+    background-color: rgba(204, 25, 25, 0.685); 
+    height:60px;
+} 
+
+
+#botao2{
+    position: absolute;
+    top: 50%; /*muda a distancia das fotos em Y*/
+    transform: translateX(190px); /*muda a distancia das fotos em X (esquerda para direita)*/
+}
+
+.botao {  
+    display: inline-block;  
+    padding: 0.8em 1.2em;    
+    background-color:#380B61;  
+    text-decoration: none;  
+    color: #f0f8ff;
+    border-radius:50px;
+    font-family:'Open Sans', sans-serif;  
+} 
+     
+.flutuante {  
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;  
+  -webkit-transition-property: -webkit-transform;  
+  transition-property: transform;  
+  -webkit-transform: translateZ(0);  
+  -ms-transform: translateZ(0);  
+  transform: translateZ(0);  
+  box-shadow: 0px 4px 2px 0px rgba(98, 98, 98, 0.69);
+}  
+      
+.flutuante:hover {
+  -webkit-transform: translateY(-5px);  
+  -ms-transform: translateY(-5px);  
+  transform: translateY(-5px);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.69);  
+} 
+
+
+
+  /* FORMULARIO*/
